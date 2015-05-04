@@ -38,7 +38,7 @@ the integrated search to get more relevant results.
 
 find %{buildroot} -name '*.la' -delete
 
-%find_lang %{name} --with-help
+%find_lang %{name} 
 
 %files -f %{name}.lang
 %doc README NEWS
