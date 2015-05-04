@@ -1,8 +1,8 @@
 %define url_ver %(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-logs
-Version:	3.14.2
-Release:	%mkrel 1
+Version:	3.16.1
+Release:	1
 Summary:	GNOME Log Viewer
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
@@ -30,7 +30,7 @@ the integrated search to get more relevant results.
 %apply_patches
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
