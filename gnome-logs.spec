@@ -50,6 +50,5 @@ find %{buildroot} -name '*.la' -delete
 #{_datadir}/%{name}
 %{_iconsdir}/*/*/*/*
 %{_datadir}/appdata/org.gnome.Logs.appdata.xml
-%{_mandir}//man1/%{name}.1*
 %{_datadir}/dbus-1/services/org.gnome.Logs.service
 
