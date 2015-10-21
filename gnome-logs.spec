@@ -1,8 +1,9 @@
 %define url_ver %(echo %{version}|cut -d. -f1,2)
+%define _disable_rebuild_configure 1
 
 Name:		gnome-logs
 Version:	3.18.1
-Release:	3
+Release:	1
 Summary:	GNOME Log Viewer
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
@@ -12,7 +13,6 @@ BuildRequires:	intltool
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 1.35.9
 BuildRequires:	pkgconfig(gtk+-3.0) >= 3.9.6
 BuildRequires:	pkgconfig(libsystemd-journal)
-BuildRequires:	appdata-tools
 BuildRequires:	gsettings-desktop-schemas
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
@@ -51,4 +51,4 @@ find %{buildroot} -name '*.la' -delete
 %{_iconsdir}/*/*/*/*
 %{_datadir}/appdata/org.gnome.Logs.appdata.xml
 %{_datadir}/dbus-1/services/org.gnome.Logs.service
-
+%{_mandir}/man1/%{name}*
