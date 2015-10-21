@@ -1,4 +1,5 @@
 removed_sources:
   gnome-logs-3.14.2.tar.xz: 2b9ad5f7f6011358522bc3811fe085ddf7eb4bec
-sources:
   gnome-logs-3.16.1.tar.xz: 18ec00747e67cfa7d38b62d1c1fc7138d1735803
+sources:
+  gnome-logs-3.18.1.tar.xz: 8a8edaf8480070272ad19347447430a64556b8b2
