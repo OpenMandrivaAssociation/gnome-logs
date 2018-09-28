@@ -12,7 +12,6 @@ Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 1.35.9
 BuildRequires:	pkgconfig(gtk+-3.0) >= 3.9.6
-BuildRequires:	pkgconfig(libsystemd-journal)
 BuildRequires:	pkgconfig(systemd)
 BuildRequires:	gsettings-desktop-schemas
 BuildRequires:	itstool
