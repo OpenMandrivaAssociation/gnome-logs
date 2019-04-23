@@ -52,3 +52,4 @@ find %{buildroot} -name '*.la' -delete
 %{_iconsdir}/*/*/*/*
 %{_datadir}/metainfo/org.gnome.Logs.appdata.xml
 %{_datadir}/dbus-1/services/org.gnome.Logs.service
+%{_datadir}/gnome-logs/gl-style.css
