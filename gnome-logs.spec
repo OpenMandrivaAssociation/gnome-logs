@@ -2,13 +2,14 @@
 %define _disable_rebuild_configure 1
 
 Name:		gnome-logs
-Version:	3.30.0
-Release:	2
+Version:	3.32.1
+Release:	1
 Summary:	GNOME Log Viewer
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
 URL:		https://wiki.gnome.org/Apps/Logs
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
+BuildRequires:  meson
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 1.35.9
 BuildRequires:	pkgconfig(gtk+-3.0) >= 3.9.6
@@ -30,11 +31,11 @@ the integrated search to get more relevant results.
 %apply_patches
 
 %build
-%configure
-%make
+%meson
+%meson_build
 
 %install
-%makeinstall_std
+%meson_install
 
 find %{buildroot} -name '*.la' -delete
 
