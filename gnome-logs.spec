@@ -14,7 +14,7 @@ BuildRequires:	intltool
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 1.35.9
 BuildRequires:	pkgconfig(gtk+-3.0) >= 3.9.6
 BuildRequires:	pkgconfig(systemd)
-BuildRequires:  pkgcondig(libhandy-1)
+BuildRequires:  pkgconfig(libhandy-1)
 BuildRequires:	gsettings-desktop-schemas
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
