@@ -2,7 +2,7 @@
 %define _disable_rebuild_configure 1
 
 Name:		gnome-logs
-Version:	42.0
+Version:	43.0
 Release:	1
 Summary:	GNOME Log Viewer
 License:	GPLv2+
@@ -12,9 +12,10 @@ Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version
 BuildRequires:  meson
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 1.35.9
-BuildRequires:	pkgconfig(gtk+-3.0) >= 3.9.6
+BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(systemd)
 BuildRequires:  pkgconfig(libhandy-1)
+BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:	gsettings-desktop-schemas
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
