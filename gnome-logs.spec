@@ -29,7 +29,7 @@ logs by category and importance to get the information you want. Use
 the integrated search to get more relevant results.
 
 %prep
-%setup -q %{name}-%{version}.beta
+%setup -q -n %{name}-%{version}.beta
 %autopatch -p1
 
 %build
