@@ -2,13 +2,13 @@
 %define _disable_rebuild_configure 1
 
 Name:		gnome-logs
-Version:	45
-Release:	0.beta.0
+Version:	45.0
+Release:	1
 Summary:	GNOME Log Viewer
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
 URL:		https://wiki.gnome.org/Apps/Logs
-Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.beta.tar.xz
+Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 BuildRequires:  meson
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 1.35.9
@@ -29,7 +29,7 @@ logs by category and importance to get the information you want. Use
 the integrated search to get more relevant results.
 
 %prep
-%setup -q -n %{name}-%{version}.beta
+%setup -q -n %{name}-%{version}
 %autopatch -p1
 
 %build
