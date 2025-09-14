@@ -2,8 +2,8 @@
 %define _disable_rebuild_configure 1
 
 Name:		gnome-logs
-Version:	45.0
-Release:	3
+Version:	49.0
+Release:	1
 Summary:	GNOME Log Viewer
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
