@@ -11,6 +11,7 @@ URL:		https://wiki.gnome.org/Apps/Logs
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 BuildRequires:  meson
 BuildRequires:	intltool
+BuildRequires:  desktop-file-utils
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 1.35.9
 BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(systemd)
