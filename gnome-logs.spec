@@ -53,6 +53,6 @@ find %{buildroot} -name '*.la' -delete
 %{_datadir}/glib-2.0/schemas/*.xml
 #{_datadir}/%{name}
 %{_iconsdir}/*/*/*/*
-%{_datadir}/metainfo/org.gnome.Logs.appdata.xml
+%{_datadir}/metainfo/org.gnome.Logs.metainfo.xml
 %{_datadir}/dbus-1/services/org.gnome.Logs.service
 #{_datadir}/gnome-logs/gl-style.css
