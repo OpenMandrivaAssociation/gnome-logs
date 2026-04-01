@@ -2,7 +2,7 @@
 %define _disable_rebuild_configure 1
 
 Name:		gnome-logs
-Version:	49.0
+Version:	50.0
 Release:	1
 Summary:	GNOME Log Viewer
 License:	GPLv2+
@@ -19,7 +19,7 @@ BuildRequires:  pkgconfig(libhandy-1)
 BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:	gsettings-desktop-schemas
 BuildRequires:	itstool
-BuildRequires:	libxml2-utils
+BuildRequires:	libxml2-utils >= 2.15.2
 BuildRequires:	xsltproc
 BuildRequires:	docbook-style-xsl
 Requires:	gsettings-desktop-schemas
