@@ -3,7 +3,7 @@
 
 Name:		gnome-logs
 Version:	50.0
-Release:	3
+Release:	4
 Summary:	GNOME Log Viewer
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
